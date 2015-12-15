@@ -92,6 +92,6 @@ function setUpHandlers() {
   });
 
   $cancelButton.on('click', function() {
-    document.location = 'pebblejs://close#';
+    document.location = getQueryParam('return_to', 'pebblejs://close#');
   });
 }
