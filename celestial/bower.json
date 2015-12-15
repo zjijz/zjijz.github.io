@@ -1,0 +1,28 @@
+{
+  "name": "celestial-web-config",
+  "authors": [
+    "zjijz"
+  ],
+  "description": "Configuration website for Celestial Watchface",
+  "main": "config.html",
+  "moduleType": [],
+  "keywords": [
+    "pebble",
+    "watchface",
+    "celestial",
+    "zjijz"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Slate": "pebble-slate#~0.0.3"
+  }
+}

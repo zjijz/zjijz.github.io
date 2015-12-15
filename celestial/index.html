@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Celestial Config</title>
+    <link rel='stylesheet' type='text/css' href='bower_components/Slate/dist/css/slate.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+  </head>
+  <body>
+    <div class="item-container">
+      <h1>Celestial Watchface Configuration</h1>
+    </div>
+    <div class="item-container">
+      <div class="item-container-content">
+        <div class="item">
+          This is the configuration page for the Celestial Watchface. Feel free to play around with all of the options to match your unique style. Send me an email at <a href="zjijz11@gmail.com">zjijz11@gmail.com</a> for new feature suggestions.
+        </div>
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="item-container-header">Color Selections</div>
+      <div class="item-container-content">
+        <label class="item">
+          Background Color
+          <input id="background" type="text" class="item-color item-color-sunny" name="bgcolor" value="#FFFFFF">
+        </label>
+        <label class="item">
+          Centerpiece Background Color
+          <input id="centerpiece-bg" type="text" class="item-color item-color-sunny" name="cbgcolor" value="#550055">
+        </label>
+        <label class="item">
+          Centerpiece Text Color
+          <input id="centerpiece-text" type="text" class="item-color item-color-sunny" name="ctcolor" value="#FFFFFF">
+        </label>
+        <label class="item">
+          Hour Arc Color
+          <input id="hour-arc" type="text" class="item-color item-color-sunny" name="hcolor" value="#AA0000">
+        </label>
+        <label class="item">
+          Hour Hand Color
+          <input id="hour-hand" type="text" class="item-color item-color-sunny" name="hhcolor" value="#550055">
+        </label>
+        <label class="item">
+          Minute Arc Color
+          <input id="minute-arc" type="text" class="item-color item-color-sunny" name="mcolor" value="#AA0055">
+        </label>
+        <label class="item">
+          Minute Hand Color
+          <input id="minute-hand" type="text" class="item-color item-color-sunny" name="mhcolor" value="#550055">
+        </label>
+      </div>
+      <div class="item-container-footer">
+        Not all color combinations will work when overlapping due to the limited colors available. Be sure to try many combinations to find your favorite!
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="item-container-header">Rotation Options</div>
+      <div class="item-container-content">
+        <label class="item">
+          Smooth Rotation
+          <input id="smooth" type="checkbox" class="item-toggle" name="smooth-toggle">
+        </label>
+      </div>
+      <div class="item-container-footer">
+        Be aware that smooth rotation will increase battery drain and decrease overall watch use time.
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="button-container">
+        <input id="submit" type="button" class="item-button" value="SUBMIT">
+      </div>
+    </div>
+    <div class="item-container">
+      <div class="button-container">
+        <input id="cancel" type="button" class="item-button" value="CANCEL">
+      </div>
+    </div>
+
+    <script src='bower_components/Slate/dist/js/slate.min.js'></script>
+    <script src='js/main.js'></script>
+  </body>
+</html>
